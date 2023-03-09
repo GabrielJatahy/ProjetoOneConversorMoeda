@@ -98,6 +98,111 @@ public class ConverteMoedas {
                 finalMensagem = "O valor convertido é de: " + valorConvertido;
 
                 break;
+            case "Euro para Dolar":
+
+                System.out.println(valorInserido);
+                EuroParaDolar valorEuroDolar = new EuroParaDolar();
+                valorConvertido = valorEuroDolar.getGetEuroParaDolar(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Euro para Real":
+
+                System.out.println(valorInserido);
+                EuroParaReal valorEuroReal = new EuroParaReal();
+                valorConvertido = valorEuroReal.getEuroParaReal(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Euro para Peso":
+
+                System.out.println(valorInserido);
+                EuroParaPeso valorEuroPeso = new EuroParaPeso();
+                valorConvertido = valorEuroPeso.getEuroParaPeso(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Euro para Bitcoin":
+
+                System.out.println(valorInserido);
+                EuroParaBitcoin valorEuroBitcoin = new EuroParaBitcoin();
+                valorConvertido = valorEuroBitcoin.getEuroParaBitcoin(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Peso para Dolar":
+
+                System.out.println(valorInserido);
+                PesoParaDolar valorPesoDolar = new PesoParaDolar();
+                valorConvertido = valorPesoDolar.getPesoParaDolar(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Peso para Euro":
+                System.out.println(valorInserido);
+                PesoParaEuro valorPesoEuro = new PesoParaEuro();
+                valorConvertido = valorPesoEuro.getPesoParaEuro(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Peso para Real":
+
+                System.out.println(valorInserido);
+                PesoParaReal valorPesoReal = new PesoParaReal();
+                valorConvertido = valorPesoReal.getPesoParaReal(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Peso para Bitcoin":
+
+                System.out.println(valorInserido);
+                PesoParaBitcoin valorPesoBitCoin = new PesoParaBitcoin();
+                valorConvertido = valorPesoBitCoin.getPesoParaBitcoin(valorInserido);
+                finalMensagem =  "O valor Convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Bitcoin para Dolar":
+                System.out.println(valorInserido);
+                BitcoinParaDolar valorBitcoinDolar = new BitcoinParaDolar();
+                valorConvertido = valorBitcoinDolar.getBitcoinParaDolar(valorInserido);
+                finalMensagem = "Valor Convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Bitcoin para Euro":
+                System.out.println(valorInserido);
+                BitcoinParaEuro valorBitcoinEuro = new BitcoinParaEuro();
+                valorConvertido = valorBitcoinEuro.getBitcoinParaEuro(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Bitcoin para Peso":
+                System.out.println(valorInserido);
+                BitcoinParaPeso valorBitcoinPeso = new BitcoinParaPeso();
+                valorConvertido = valorBitcoinPeso.getBitcoinParaPeso(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+            case "Bitcoin para Real":
+                System.out.println(valorInserido);
+                BitcoinParaReal valorBitcoinReal = new BitcoinParaReal();
+                valorConvertido = valorBitcoinReal.getBitcoinParaReal(valorInserido);
+                finalMensagem = "O valor convertido é de: " + valorConvertido;
+
+                break;
+
+
+
 
 
 
